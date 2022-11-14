@@ -8,7 +8,7 @@
 // Output: 2.50000
 // Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
 
-const findMedianSortedArrays = function (nums1, nums2) {
+let findMedianSortedArrays = function (nums1, nums2) {
   let nums3 = [...nums1, ...nums2].sort((a, b) => {
     return a - b;
   });
