@@ -15,7 +15,7 @@
 // - [1,2,2,1]
 // - [1,2,2,1]
 
-var countKDifference = function (nums, k) {
+const countKDifference = function (nums, k) {
   let count = 0,
     i = 0,
     j = 0,
