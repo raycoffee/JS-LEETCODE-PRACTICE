@@ -1,4 +1,4 @@
 # JS-LEETCODE-PRACTICE
 
-Leetcode solutions via javascript.
+<p>Leetcode solutions via javascript.</p>
 Leetcode profile: https://leetcode.com/dhruvjyotiray/
