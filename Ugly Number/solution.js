@@ -12,7 +12,7 @@
  * @param {number} n
  * @return {boolean}
  */
-var isUgly = function (n) {
+const isUgly = function (n) {
   let ugly = false;
   while (ugly == false) {
     if (n == 0) {
