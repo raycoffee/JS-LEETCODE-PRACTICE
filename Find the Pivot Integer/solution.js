@@ -14,7 +14,6 @@
  * @return {number}
  */
 var pivotInteger = function (n) {
-  let nSum = (n * (1 + n)) / 2;
   let leftSum, rightSum;
 
   for (let i = 1; i <= n; i++) {
