@@ -12,7 +12,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-var maxSubArray = function (nums) {
+let maxSubArray = function (nums) {
   let maxSubArr = nums[0],
     counts = [nums[0]];
 
