@@ -25,7 +25,7 @@
  * @param {TreeNode} root
  * @return {TreeNode}
  */
-var bstToGst = function (root) {
+let bstToGst = function (root) {
   let sum = 0;
   function dfs(node) {
     if (node.right) dfs(node.right);
