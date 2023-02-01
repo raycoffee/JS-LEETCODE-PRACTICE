@@ -16,7 +16,7 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
-const deleteDuplicates = function (head) {
+let deleteDuplicates = function (head) {
   let map = new Map(),
     duplicates = new Map();
   let arr = [];
