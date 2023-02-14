@@ -10,7 +10,7 @@
  * @param {ListNode} l2
  * @return {ListNode}
  */
-var addTwoNumbers = function (l1, l2) {
+const addTwoNumbers = function (l1, l2) {
   let nodeA = l1;
   let nodeB = l2;
   let carryOver = 0;
