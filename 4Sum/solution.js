@@ -15,7 +15,7 @@
  * @param {number} target
  * @return {number[][]}
  */
-const fourSum = function (nums, target) {
+let fourSum = function (nums, target) {
   let arr = [];
   let sorted = nums.sort((a, b) => a - b);
   let cache = new Map();
