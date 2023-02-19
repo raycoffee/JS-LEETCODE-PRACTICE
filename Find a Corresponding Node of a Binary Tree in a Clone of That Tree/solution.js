@@ -12,7 +12,7 @@
  * @return {TreeNode}
  */
 
-var getTargetCopy = function (original, cloned, target) {
+const getTargetCopy = function (original, cloned, target) {
   let stack = [cloned];
 
   while (stack.length > 0) {
