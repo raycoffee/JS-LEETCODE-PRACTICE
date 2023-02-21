@@ -17,7 +17,7 @@
  * @param {TreeNode} root
  * @return {number}
  */
-const deepestLeavesSum = function (root) {
+let deepestLeavesSum = function (root) {
   let depth = 0,
     maxDepth = -Infinity,
     count = 0;
