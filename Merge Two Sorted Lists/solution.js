@@ -10,7 +10,7 @@
  * @param {ListNode} list2
  * @return {ListNode}
  */
- const mergeTwoLists = function(list1, list2) {
+ let mergeTwoLists = function(list1, list2) {
 
     if (!list1 && !list2) return list1
 
