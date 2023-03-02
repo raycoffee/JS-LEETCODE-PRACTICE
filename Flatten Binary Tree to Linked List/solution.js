@@ -10,7 +10,7 @@
  * @param {TreeNode} root
  * @return {void} Do not return anything, modify root in-place instead.
  */
-var flatten = function (root) {
+const flatten = function (root) {
   let arr = [];
 
   if (!root) return;
