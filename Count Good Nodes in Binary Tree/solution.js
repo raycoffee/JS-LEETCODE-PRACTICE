@@ -10,7 +10,7 @@
  * @param {TreeNode} root
  * @return {number}
  */
-var goodNodes = function (root) {
+const goodNodes = function (root) {
   let output = 0,
     max = -Infinity;
   let nums = [];
