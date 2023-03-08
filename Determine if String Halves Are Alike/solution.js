@@ -14,7 +14,7 @@
  * @param {string} s
  * @return {boolean}
  */
-var halvesAreAlike = function (s) {
+const halvesAreAlike = function (s) {
   let vcounta = 0,
     vcountb = 0,
     vowel = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"],
