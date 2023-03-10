@@ -10,7 +10,7 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
- var detectCycle = function(head) {
+ const detectCycle = function(head) {
     let map = new Map()
     let currNode = head, i=0
 
