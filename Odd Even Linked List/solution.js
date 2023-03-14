@@ -9,7 +9,7 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
- var oddEvenList = function(head) {
+ const oddEvenList = function(head) {
     let evenList = [], oddList = [], odd = true
 
     let currNode = head
