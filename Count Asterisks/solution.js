@@ -2,7 +2,7 @@
  * @param {string} s
  * @return {number}
  */
-var countAsterisks = function (s) {
+const countAsterisks = function (s) {
   let count = 0;
   let firstEn = false;
 
