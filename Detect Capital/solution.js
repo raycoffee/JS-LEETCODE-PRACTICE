@@ -18,7 +18,7 @@
  * @param {string} word
  * @return {boolean}
  */
-var detectCapitalUse = function (word) {
+const detectCapitalUse = function (word) {
   let small = new Map();
   let upper = new Map();
   let alphabets = "abcdefghijklmnopqrstuvwxyz";
