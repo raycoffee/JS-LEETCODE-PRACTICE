@@ -4,7 +4,7 @@
  * @param {number} init
  * @return {number}
  */
-var reduce = function (nums, fn, init) {
+var reducer = function (nums, fn, init) {
   res = init;
 
   for (let num of nums) {
