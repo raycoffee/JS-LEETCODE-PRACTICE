@@ -6,8 +6,8 @@ const compose = function (functions) {
     return function (x) {
 
         return functions.reduceRight((a, b) => {
-            let sum = b(a)
-            return sum
+            let total = b(a)
+            return total
         }, x)
 
     }
