@@ -2,7 +2,7 @@
  * @param {Function[]} functions
  * @return {Function}
  */
-let compose = function (functions) {
+const compose = function (functions) {
     return function (x) {
 
         return functions.reduceRight((a, b) => {
